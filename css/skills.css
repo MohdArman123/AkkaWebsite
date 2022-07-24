@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    background-color: orange;
+    height: 100vh;
+    font-family: 'fira Sans' , sans-serif;
+}
+
+.sidebar nav{
+    padding: 30px;
+}
+
+
+.sidebar nav li {
+    list-style: none;
+    padding: 33px 0;
+    font-size: 30px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.main {
+    width: 90vw;
+}
+
+.intro {
+    padding: 0 0 0 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro h1{
+    font-family: 'Source Code Pro' , monospace;
+    margin: 15px;
+}
+
+.intro h2{
+    font-family: 'Fira Sans' , sans-serif;
+    margin: 12px;
+}
+
+.intro p {
+    font-family: 'Source Code Pro' , monospace;
+    margin: 12px;
+    font-weight: bold;
+}
+
+.skiicontainer {
+    padding: 12px;
+}
+
+.skillItem {
+    display: flex;
+    align-items: left;
+    font-family: 'Source Code Pro' , monospace;
+    font-weight: bold;
+}

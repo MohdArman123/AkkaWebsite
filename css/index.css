@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: orange;
+    height: 100vh;
+    font-family: 'fira Sans' , sans-serif;
+}
+
+.sidebar nav{
+    padding: 30px;
+}
+
+
+.sidebar nav li {
+    list-style: none;
+    padding: 33px 0;
+    font-size: 30px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.main {
+    width: 80vw;
+}
+.container {
+    display: flex;
+}
+.infoContainer {
+    height: 60vh;
+    width: 100vh;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Source Code Pro' , monospace;
+}
+
+.hi{
+    font-size: 35px;
+}
+
+.myname {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'fira Sans' sans-serif;
+}
+
+.post {
+    font-size: 30px;
+    word-spacing: -10px;
+}
+
+.about {
+    font-size: 15px;
+    margin-top: 23px;
+    font-weight: bold;
+    font-family: 'fira Sans' , sans-serif;
+
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devInfo {
+    padding: 0 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.devPic img {
+    height: 70vh;
+}
